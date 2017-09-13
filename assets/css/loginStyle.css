@@ -1,0 +1,131 @@
+* {
+  margin:0;
+  padding:0;
+}
+
+#container {
+  /*Positioning*/
+  position:relative;
+
+	/*Box-model*/
+  height: 100%;
+  width: 100%;
+  text-align: center;
+
+	/*Tekst*/
+  font-family: 'Roboto', sans-serif;
+}
+
+#header {
+  /*Positioning*/
+  position:relative;
+
+	/*Box-model*/
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 1em;
+}
+
+#boogleImage {
+	/*Box-model*/
+  height: 2.5%;
+  width: 12.5%;
+}
+
+h1 {
+	/*Box-model*/
+  margin-top: 0.3em;
+
+	/*Tekst*/
+  font-size: 2em;
+}
+
+h3 {
+	/*Box-model*/
+  margin-top: 0.5em;
+
+	/*Tekst*/
+  font-size: 1em;
+}
+
+#main {
+  /*Positioning*/
+  position:relative;
+
+	/*Box-model*/
+  width: 25%;
+  height: 370px;
+  margin: 0 auto;
+  margin-top: 2em;
+  box-shadow: 1px  1px 3px 1px  silver;
+
+	/*Color*/
+  background-color:  #f1f1f1;
+}
+
+#userProfile {
+	/*Box-model*/
+  height: 40%;
+  width:40%;
+  margin-top: 2em;
+}
+
+input,button {
+	/*Box-model*/
+  margin-top: 1em;
+  padding: 1.2em;
+  width: 70%;
+  border-radius: 5px;
+  border: solid #f1f1f1 1px;
+}
+
+button {
+	/*Box-model*/
+  width: 81%;
+
+	/*Color*/
+  background-color: blue;
+  color: white;
+}
+
+button:hover {
+	/*Color*/
+  background-color: DodgerBlue;
+
+	/*Tekst*/
+  font-weight: bold;
+
+	/*Ostalo*/
+  transition: 1s;
+}
+
+a {
+	/*Color*/
+  color: DodgerBlue;
+
+	/*Tekst*/
+  text-decoration:none;
+}
+
+#help {
+  /*Positioning*/
+  position:absolute;
+
+	/*Box-model*/
+  margin-top: 1em;
+  right: 2em;
+}
+
+li {
+	/*Box-model*/
+  margin-left: 1em;
+
+	/*Ostalo*/
+  display: inline;
+}
+
+.images{
+	/*Box-model*/
+  height: 30px;
+  width: 30px;
+}

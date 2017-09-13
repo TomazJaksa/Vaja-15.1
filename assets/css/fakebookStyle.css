@@ -1,0 +1,258 @@
+* {
+  margin:0;
+  padding:0;
+ //default poravnava za brskalnike
+}
+
+body,button {
+  font-family: 'Rum Raisin', sans-serif;
+  //pisave
+}
+
+/*odsek glave*/
+#title {
+  /*določitev barve ozadja za fakebook naslov*/
+  background-color: #3b5998;
+}
+
+#fakebook {
+  /*poravnava in velikost fakebook naslova*/
+  margin-left:38%;
+  height: 7em;
+}
+
+/*odsek navigacije*/
+#nav {
+  /*deklaracija lastnosti navigacije. barva ozadja itd..*/
+  background-color: black;
+  padding-top: 0.1em;
+  padding-bottom: 1.5em;
+  padding-left: 2em;
+}
+
+#searchField{
+  /*iskalno polje*/
+  padding:1em;
+  border-radius: 5px;
+  border:none;
+  width: 100px;
+  transition:1s;
+
+}
+
+#searchField:hover {
+  width:300px;
+}
+
+button{
+  /*splošne lastnosti vseh gumbov*/
+  padding:0.9em;
+  border-radius: 5px;
+  border: none;
+  background-color: white;
+  border:solid #3b5998 2px;
+}
+
+button:hover {
+  background-color: powderBlue;
+  transition:1s;
+}
+
+button:active {
+  /*ob kliku na gumb, naredi...*/
+  position:relative;
+  top:5px;
+  transition:0.1s;
+}
+
+/*ikone za prošnje za prijateljstvo, sporočila, novice*/
+#friendRequest{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 40em;
+  top:8.5em;
+}
+
+#message {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 50em;
+  top:8.5em;
+}
+#news {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 60em;
+  top:8.5em;
+}
+
+#menu {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 80em;
+  top:8.5em;
+}
+
+/*splošne lastnosti ikon na gumbih za prošnje ter sporočila*/
+.helperIcons {
+  position:relative;
+  top:3px;
+  left:3px;
+}
+
+/*<div> v katerem imamo gumber*/
+.opcije {
+  position:absolute;
+  top:25em;
+  left: 50em;
+}
+
+
+#ime {
+  /*urejanje lastnosti imena uporabnika*/
+  position:relative;
+  top:-2em;
+  left: 10em;
+}
+#image {
+  /*lastnosti profilne slike*/
+  position: relative;
+  left:2em;
+  top:1em;
+}
+
+#pic0 {
+  /*ikona za prijatelje - predvideno za link*/
+  width:100px;
+  height:100px;
+  position: absolute;
+  left: 31em;
+  top: 3em;
+  transition:1s;
+}
+
+#pic1 {
+  /*ikona za časovnico*/
+  width:100px;
+  height:100px;
+  position: absolute;
+  left: 40em;
+  top: 3em;
+  transition:1s;
+}
+
+/*ikona za slike*/
+#pic2 {
+  width:130px;
+  height:130px;
+  position: absolute;
+  left: 49em;
+  top: 2.3em;
+  transition:1s;
+}
+
+/*ikona za dodatne podrobnosti*/
+#pic3 {
+  width:120px;
+  height:120px;
+  position: absolute;
+  left: 58em;
+  top: 2.3em;
+  transition:1s;
+}
+
+/*ikona za ostale opcije*/
+#pic4 {
+  width:100px;
+  height:100px;
+  position: absolute;
+  left: 72em;
+  top: 2.5em;
+  transition:1s;
+}
+
+#pic0:hover,#pic1:hover,#pic2:hover,#pic3:hover, #pic4:hover{
+  height: 150px;
+  width:150px;
+}
+/*ozadje za časovnico*/
+#ozadje {
+  background: url("http://www.mamimumeme.com/wp-content/uploads/2015/11/blog20151123.jpg") no-repeat;
+  background-size:cover;
+  border-bottom:solid black 5px;
+}
+
+/* ne vem za kaj točno je to sploh tu, vendar si ne upam izbrisati :)*/
+#opis {
+  clear:both;
+}
+
+/*noga*/
+#footer {
+  clear:both;
+  background-color: #3b5998;
+  text-align:center;
+  margin:0;
+  padding:2em;
+}
+
+
+a {
+  /*urejanje dodatnih lastnosti linkov*/
+  text-decoration:none;
+  color:white;
+
+}
+/*opis*/
+#opis {
+  /*urejanje ozadja*/
+  background: url("http://img3.themebin.com/4K_UltraHD/flat-mountains.jpg");
+  background-size:cover;
+  border-bottom: solid black 3px;
+  width:100%;
+  height: 20em;
+}
+
+#prviDel {
+  /*urejanje odseka na levi (osnovni opis: mesto, starost,...)*/
+  background-color: rgba(255,255,255,0.5);
+  width: 30%;
+  height:10em;
+  float:left;
+  padding:2em;
+  margin-left:2em;
+  margin-top:3em;
+
+}
+
+#drugiDel {
+  /*urejanje odseka na sredini - prijatelji (is that Trump??)*/
+  background-color: rgba(255,255,255,0.5);
+  width: 7%;
+  height: 10em;
+  float:right;
+  padding:1em 2em;
+  margin-right: 2em;
+  margin-top:3em;
+  position:relative;
+  right: 40.5em;
+
+}
+
+#tretjiDel {
+  /*urejanje odseka na desni - zgodovina objav*/
+  background-color: rgba(255,255,255,0.5);
+  width: 40%;
+  height: 10em;
+  float:right;
+  padding:3em;
+  margin-top:3em;
+  position:relative;
+  right: -10em;
+  text-align:center;
+  vertical-align: center;
+}

@@ -1,0 +1,192 @@
+/*BOOGLE PAGE*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#container {
+  /*Positioning*/
+  position:relative;
+
+	/*Box-model*/
+  height: 675px;;
+  width: 100%;
+
+	/*Tekst*/
+  font-family: 'Roboto', sans-serif;
+}
+
+#options {
+    /*Positioning*/
+    position:absolute;
+    right:0;
+    /*Box-model*/
+    padding:2em;
+}
+
+a {
+  /*Color*/
+  color: black;
+  /*Tekst*/
+  text-decoration:none;
+}
+
+ul li {
+  /*Box-model*/
+  padding: 0.8em;
+  margin-left: 1em;
+  border-radius: 5px;
+
+  /*Tekst*/
+  font-weight: bold;
+
+  /*Ostalo*/
+  display: inline;
+}
+
+
+
+#appIcon {
+  /*Positioning*/
+  position:relative;
+  top:0.5em;
+
+  /*Box-model*/
+  height:30px;
+  width:30px;
+}
+
+.login {
+  /*Color*/
+  background-color: blue;
+  color: white;
+
+  /*Tekst*/
+  font-weight: bold;
+}
+
+.login:active {
+  /*Positioning*/
+  position:relative;
+  top:0.2em;
+
+  /*Ostalo*/
+  transition:1s;
+}
+
+#middle {
+  /*Positioning*/
+  position:relative;
+  top:10em;
+
+  /*Box-model*/
+  margin: 0 auto;
+  height: 20em;
+  width: 60%;
+}
+
+.logo-Container {
+  /*Positioning*/
+  position:relative;
+  top:3em;
+
+  /*Box-model*/
+  width: 100%;
+  height: 50%;
+  text-align: center;
+}
+
+.logo {
+  /*Box-model*/
+  height: 100px;
+}
+
+#searchBox {
+  /*Positioning*/
+  position:relative;
+  /*Box-model*/
+    text-align: center;
+}
+
+#inputField {
+  /*Box-model*/
+  border: solid silver 1px;
+  box-shadow: 1px  1px 3px 1px  silver;
+  padding:1em;
+
+  /*Ostalo*/
+  display:inline;
+}
+
+#inputField:hover {
+  /*Box-model*/
+    box-shadow: 1px  2px 7px 1px  silver;
+}
+
+input {
+  /*Box-model*/
+  padding: 1.2em;
+  width: 60%;
+  border:none;
+}
+
+.helper {
+  /*Box-model*/
+  height: 1em;
+  margin-left: 1em;
+}
+
+button {
+  /*Box-model*/
+  padding: 1em;
+  border:none;
+  margin-top: 2em;
+  margin-left:0.7em;
+
+  /*Color*/
+  color: grey;
+  background-color: #f1f1f1;
+
+  /*Tekst*/
+  font-weight: bold;
+}
+
+button:hover {
+  /*Box-model*/
+  border: solid silver 1px;
+
+  /*Color*/
+  color: black;
+}
+
+#footer {
+  /*Positioning*/
+  position: absolute;
+  left:0;
+  bottom:0em;
+
+  /*Box-model*/
+  height: 7%;
+  width: 100%;
+  border-top: silver 1px solid;
+  text-align: center;
+
+  /*Color*/
+  background-color:#f1f1f1;
+}
+
+#leftList, #rightList {
+  /*Positioning*/
+  position: absolute;
+  bottom:1em;
+}
+
+#leftList {
+  /*Positioning*/
+  left:1em;
+}
+
+#rightList {
+  /*Positioning*/
+  right: 1em;
+}
